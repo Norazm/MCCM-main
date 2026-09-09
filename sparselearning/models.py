@@ -18,6 +18,7 @@ class SparseSpeedupBench(object):
             outputs = self.bench.forward(self.conv_layer1, inputs, layer_id='conv_layer1')
         else:
             outputs = self.conv_layer1(inputs)
+            
     3. Speedups of the convolutional layer will be aggregated and print every 1000 mini-batches.
     """
     def __init__(self):

@@ -6,6 +6,7 @@ from torch_geometric.utils import add_remaining_self_loops
 from torch_geometric.nn.inits import glorot, zeros
 import pdb
 
+
 class GCNConv(MessagePassing):
     
     def __init__(self, in_channels, out_channels, improved=False, cached=False,

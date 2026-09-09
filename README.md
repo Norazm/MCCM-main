@@ -9,9 +9,9 @@ PyTorch implementation of "MCCM: A Multivariate Combination Compression Method f
 ## Setup
 The following dependencies are recommended for the installation of the environment.
 
-- python 3.8.18
-- torch 2.1.2
-- torch_geometric 2.5.3
+- python 3.7.16
+- torch 1.11.0
+- torch_geometric 2.2.0
 
 ## Dataset
 It is recommended to download the following datasets from the official website:
